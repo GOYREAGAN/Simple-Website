@@ -1,22 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset = "UTF-8">
-        <meta name = "viewport" content="width=device-width, initial-scale=1.0"/>
-        <meta name = "author" content="Goy Reagan">
-        <title>Projects</title>
-        <meta name = "description" content="This web-page is contains all my projects so far(tentative)">
-        <link rel="stylesheet" href="style.css"/>
-    </head>
-    <body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Junior Front-End Developer</title>
+</head>
+
+<body>
+    <div class = "page-wrap">
         <nav class ="navigate">
             <ul>
-                <li><a href ="Homepage.html">HomePage</a></li>
+                <li><a href ="Home.html">HomePage</a></li>
                 <li><a href ="Projects.html">Projects</a></li>
-                <li><a href ="Contact.html">Contact</a></li>
             </ul>
         </nav>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Junior Front-End Developer | HTML | CSS | JavaScript</p>
+    </header>
 
-    </body>
+    <section>
+        <h2>About Me</h2>
+        <p>Hello! My name is [Your Name], and I am passionate about creating responsive, user-friendly web applications. As a Junior Front-End Developer, I specialize in using HTML, CSS, and JavaScript to bring designs to life.</p>
+    </section>
+
+    <section>
+        <h2>My Projects</h2>
+        <ul>
+            <li>
+                <strong>Project Name 1</strong> - A brief description of the project.
+            </li>
+            <li>
+                <strong>Project Name 2</strong> - A brief description of the project.
+            </li>
+            <li>
+                <strong>Project Name 3</strong> - A brief description of the project.
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</body>
 
 </html>
